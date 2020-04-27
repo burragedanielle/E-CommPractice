@@ -1,0 +1,189 @@
+$font-stack: "Poppins", sans-serif;
+$font-title: "Prata", serif;
+
+$yellow: #ffd189;
+$peach: #ffa99d;
+$teal: #6dc2c2;
+$lavender: #d2c6ec;
+
+@mixin colorName($colorProperty) {
+  color: $colorProperty;
+  font-size: 2rem;
+  font-family: $font-title;
+}
+
+@mixin productCategories($colorProperty) {
+  background-color: $colorProperty;
+  border-radius: 20px;
+  text-transform: lowercase;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px 10px 10px 10px;
+}
+
+body {
+  font-family: $font-stack;
+  font-size: 1rem;
+}
+
+#site-header {
+  font-size: 2rem;
+  padding: 0 5rem;
+  text-transform: lowercase;
+}
+
+// site header colors//
+
+#c1 {
+  @include colorName($lavender);
+}
+
+#c2 {
+  @include colorName($peach);
+}
+
+#c3 {
+  @include colorName($yellow);
+}
+
+#c4 {
+  @include colorName($teal);
+}
+
+#c5 {
+  @include colorName($lavender);
+}
+
+#c6 {
+  @include colorName($peach);
+}
+
+#c7 {
+  @include colorName($yellow);
+}
+
+#c8 {
+  @include colorName($teal);
+}
+
+#c9 {
+  @include colorName($lavender);
+}
+
+.nav {
+  li {
+    text-transform: uppercase;
+  }
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+.nav {
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  font-weight: lighter;
+  :hover {
+    color: $peach;
+  }
+}
+
+.page-footer {
+  margin-top: 20rem;
+  background-color: $peach;
+}
+
+.main-content {
+  padding-top: 7rem;
+}
+
+.product-name {
+  font-family: $font-title;
+  font-size: 3rem;
+  text-transform: lowercase;
+  text-align: center;
+  padding: 0px 20px 20px 20px;
+}
+
+.product-feature {
+  list-style-type: none;
+  margin-bottom: 25px;
+}
+
+i {
+  font-size: 2.75em;
+}
+
+.brand-name {
+  font-family: $font-stack;
+  font-size: 20px;
+  font-weight: 600px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $peach;
+}
+
+.product-image {
+  max-width: 800px;
+  max-height: 650px;
+}
+
+.product-image-bgrnd {
+  position: absolute;
+  right: 100px;
+  bottom: 50px;
+  z-index: -2;
+}
+
+.cart-button {
+  background-color: $teal;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 8px 100px;
+  margin-top: 10px;
+}
+
+.testing-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.product-categories {
+  list-style-type: none;
+}
+
+#top-rated {
+  @include productCategories($yellow);
+}
+
+#moisturizer {
+  @include productCategories($lavender);
+}
+
+#dry-skin {
+  @include productCategories($peach);
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background: red;
+  margin: 1em 1em 0px 0px;
+}
+
+.footer-heading {
+  font-family: $font-title;
+  text-transform: lowercase;
+  font-size: 2em;
+}

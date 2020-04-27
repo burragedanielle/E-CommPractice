@@ -1,0 +1,205 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+#site-header {
+  font-size: 2rem;
+  padding: 0 5rem;
+  text-transform: lowercase;
+}
+
+#c1 {
+  color: #d2c6ec;
+  font-size: 2rem;
+  font-family: "Prata", serif;
+}
+
+#c2 {
+  color: #ffa99d;
+  font-size: 2rem;
+  font-family: "Prata", serif;
+}
+
+#c3 {
+  color: #ffd189;
+  font-size: 2rem;
+  font-family: "Prata", serif;
+}
+
+#c4 {
+  color: #6dc2c2;
+  font-size: 2rem;
+  font-family: "Prata", serif;
+}
+
+#c5 {
+  color: #d2c6ec;
+  font-size: 2rem;
+  font-family: "Prata", serif;
+}
+
+#c6 {
+  color: #ffa99d;
+  font-size: 2rem;
+  font-family: "Prata", serif;
+}
+
+#c7 {
+  color: #ffd189;
+  font-size: 2rem;
+  font-family: "Prata", serif;
+}
+
+#c8 {
+  color: #6dc2c2;
+  font-size: 2rem;
+  font-family: "Prata", serif;
+}
+
+#c9 {
+  color: #d2c6ec;
+  font-size: 2rem;
+  font-family: "Prata", serif;
+}
+
+.nav li {
+  text-transform: uppercase;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+.nav {
+  -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  font-weight: lighter;
+}
+
+.nav :hover {
+  color: #ffa99d;
+}
+
+.page-footer {
+  margin-top: 20rem;
+  background-color: #ffa99d;
+}
+
+.main-content {
+  padding-top: 7rem;
+}
+
+.product-name {
+  font-family: "Prata", serif;
+  font-size: 3rem;
+  text-transform: lowercase;
+  text-align: center;
+  padding: 0px 20px 20px 20px;
+}
+
+.product-feature {
+  list-style-type: none;
+  margin-bottom: 25px;
+}
+
+i {
+  font-size: 2.75em;
+}
+
+.brand-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffa99d;
+}
+
+.product-image {
+  max-width: 800px;
+  max-height: 650px;
+}
+
+.product-image-bgrnd {
+  position: absolute;
+  right: 100px;
+  bottom: 50px;
+  z-index: -2;
+}
+
+.cart-button {
+  background-color: #6dc2c2;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 8px 100px;
+  margin-top: 10px;
+}
+
+.testing-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.product-categories {
+  list-style-type: none;
+}
+
+#top-rated {
+  background-color: #ffd189;
+  border-radius: 20px;
+  text-transform: lowercase;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px 10px 10px 10px;
+}
+
+#moisturizer {
+  background-color: #d2c6ec;
+  border-radius: 20px;
+  text-transform: lowercase;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px 10px 10px 10px;
+}
+
+#dry-skin {
+  background-color: #ffa99d;
+  border-radius: 20px;
+  text-transform: lowercase;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px 10px 10px 10px;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background: red;
+  margin: 1em 1em 0px 0px;
+}
+
+.footer-heading {
+  font-family: "Prata", serif;
+  text-transform: lowercase;
+  font-size: 2em;
+}
+/*# sourceMappingURL=style.css.map */
