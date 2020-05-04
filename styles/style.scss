@@ -129,6 +129,23 @@ li {
   padding: 0px 20px 20px 20px;
 }
 
+#customize-title {
+  font-size: 2.5rem;
+}
+
+.customize-images {
+  max-height: 500px;
+}
+
+.custom-section-head {
+  display: flex;
+  justify-content: center;
+}
+
+#product-custom {
+  justify-content: center;
+}
+
 .product-feature {
   list-style-type: none;
   margin-bottom: 25px;
@@ -201,6 +218,7 @@ i {
 
 .product-categories {
   list-style-type: none;
+  padding: 0px;
 }
 
 .test-hover:hover {
@@ -217,6 +235,10 @@ i {
 
 #dry-skin {
   @include productCategories($peach);
+}
+
+#add {
+  @include productCategories($teal);
 }
 
 .square {
