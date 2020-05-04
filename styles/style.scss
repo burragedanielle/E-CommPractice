@@ -113,7 +113,7 @@ li {
 }
 
 .page-footer {
-  margin-top: 20rem;
+  margin-top: 10rem;
   background-color: $peach;
 }
 
@@ -133,8 +133,31 @@ li {
   font-size: 2.5rem;
 }
 
+#custom-product-name {
+  font-size: 1.2em;
+  margin-top: 1em;
+  padding: 0px;
+}
+
+.small-btn {
+  border-radius: 20px;
+  background-color: $teal;
+  text-transform: uppercase;
+  font-weight: bold;
+  &:hover {
+    box-shadow: $box-shadow;
+    color: $yellow;
+  }
+}
+
+.custom-item-section {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
 .customize-images {
-  max-height: 500px;
+  max-height: 400px;
 }
 
 .custom-section-head {
