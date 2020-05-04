@@ -148,6 +148,11 @@ li a:hover {
 
 .customize-images {
   max-height: 400px;
+  border-radius: 20px;
+}
+
+.customize-images:hover {
+  opacity: 0.7;
 }
 
 .custom-section-head {
