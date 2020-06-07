@@ -4,50 +4,11 @@ let productImages = [
 
 var count = 0;
 
-$('.minor-product-image').click((e) => {
+$('#toggler').click((e) => {
     var imageId = e.target.id;
-    count++;
+    var imageSrc = e.target.src;
     console.log(imageId);
     console.log(count);
 
-    for (i = 0; i < productImages.length; i++) {
-        switch (imageId) {
-            case 'm-image-1':
-                $('#main-product-image').attr('src', productImages[1]);
-                $('#m-image-2').attr('src', productImages[0]);
-                $('#m-image-1').attr('src', productImages[2]);
-                $('#m-image-3').attr('src', productImages[3]);
-                break;
-            case 'm-image-2':
-                $('#main-product-image').attr('src', productImages[2]);
-                $('#m-image-2').attr('src', productImages[1]);
-                $('#m-image-1').attr('src', productImages[0]);
-                $('#m-image-3').attr('src', productImages[3]);
-                break;
-            case 'm-image-3':
-                $('#main-product-image').attr('src', productImages[3]);
-                $('#m-image-1').attr('src', productImages[1]);
-                $('#m-image-2').attr('src', productImages[2]);
-                $('#m-image-3').attr('src', productImages[0]);
-                break;
-            default:
-                $('#main-product-image').attr('src', productImages[0]);
-                $('#m-image-1').attr('src', productImages[1]);
-                $('#m-image-2').attr('src', productImages[2]);
-                $('#m-image-3').attr('src', productImages[3]);
-
-                if (e.target.attr('src') === productImages[0]) {
-                    console.log('reset');
-                    $('#main-product-image').attr('src', productImages[0]);
-                    $('#m-image-1').attr('src', productImages[1]);
-                    $('#m-image-2').attr('src', productImages[2]);
-                    $('#m-image-3').attr('src', productImages[3]);
-                    break;
-                }
-
-        }
-
-    }
-
-
+    $('#main-product-image').attr('src', imageSrc);
 });
