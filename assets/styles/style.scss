@@ -164,6 +164,10 @@ li {
   }
 }
 
+#toggler:active {
+  transition: all 0.3s ease-in 0s;
+}
+
 .custom-section-head {
   display: flex;
   justify-content: center;
