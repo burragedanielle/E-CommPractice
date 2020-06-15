@@ -2,7 +2,7 @@
 
 A design exercise, demonstrating my web design skills in an e-commerce setting. The goal of this challenge was to organize a large amount of product information in a visually appealing way. This beauty and skincare e-commerce site prototype was inspired by the playful yet functional designs on Glossier and Billie's direct-to-consumer sites.
 
-![Image of E-Commerce Practice Page](https://github.com/[burragedanielle]/[E-CommPractice]/[master]/assets/img/screenshot_ecommpractice1.png).
+![Image of E-Commerce Practice Page](https://github.com/[burragedanielle]/[E-CommPractice]/blob/[master]/assets/img/screenshot_ecommpractice1.png).
 
 ## Deployed Application
 
