@@ -4,7 +4,7 @@ A design exercise, demonstrating my web design skills in an e-commerce setting. 
 
 ![Image of E-Commerce Practice Page](https://github.com/burragedanielle/E-CommPractice/blob/master/assets/img/screenshot_ecommpractice1.png).
 
-## Deployed Application
+## Deployed Application :desktop_computer:
 
 View the [live site here](https://burragedanielle.github.io/E-CommPractice/).
 
@@ -12,7 +12,7 @@ View the [live site here](https://burragedanielle.github.io/E-CommPractice/).
 
 This direct-to-consumer front-end site features dynamic elements including a self-written JavaScript function to dynamically update the images viewed on the page based on the user's clicks, tool-tips for clear calls-to-action, and hover-css features.
 
-## Build Process
+## Build Process :hammer_and_wrench:
 
 **Main Languages**:
 Built with HTML, CSS, and JavaScript
