@@ -8,11 +8,11 @@ View the [live site here](https://burragedanielle.github.io/E-CommPractice/).
 
 ## Features
 
-** Main Languages **
+**Main Languages**
 Built with HTML, CSS, and JavaScript
 
-** From Design To Execution **
-I wireframed and protyped my design using Figma. Using my prototype, I coded a dynamic front-end.
+**Frameworks**
+Utilized jQuery to manipulate the content on the page, Bootstrap as a baseframework and Sass as a CSS compiler.
 
-** jQuery **
-jQuery to manipulate the content on the page.
+**From Design To Execution**
+I wireframed and protyped my design using Figma. Using my prototype, I coded a dynamic front-end.
