@@ -12,3 +12,7 @@ $('#toggler').click((e) => {
 
     $('#main-product-image').attr('src', imageSrc);
 });
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
